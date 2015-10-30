@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flower page</title>
+	<link rel="stylesheet" type="text/css" href="flower.css">
+</head>
+	<script type="text/javascript">
+		var hideNow=function(){
+			document.getElementById("hide").style.visibility = "hidden";
+			setTimeout(showNow,600);
+		}
+		var showNow=function(){
+			document.getElementById("hide").style.visibility = "visible";
+		}
+		</script>
+<body >
+		<hr><h1 align="center" style="color:orange">Flower Catalog</h1><hr>
+	<div>
+	    <img class="homePageImage" src="./images/freshorigins.jpg"/><hr>
+	    <ul>
+			<li><a href="abeliophyllum.html">Abeliophyllum</a></li><br>
+			<li><a href="ageratum.html">Ageratum</a></li><br>
+			<img  height="100px"width="100px"src="./images/animated-flower-image-0021.gif"onclick="hideNow()"id="hide"/>
+			<li><a href="guestBook.html">Guest Book</a></li>
+		</ul>
+	</div>
+</body>
+</html>
+
+
+
